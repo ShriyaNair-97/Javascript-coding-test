@@ -1,0 +1,32 @@
+.container h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.container .form-group input[type="text"]{
+    width: 550px;
+    border:2px solid #e0e0e0;
+ 
+    border-radius: 2px;
+}
+
+.container{
+    width: 600px;
+}
+.btn{
+    width: 550px;
+    margin-bottom: 30px;
+}
+
+.container div{
+
+    padding: 10px;
+    color: solid red;
+  
+}
+input:invalid{
+    border: 2px solid red;
+}
+
+input:valid{
+    border: 2px solid green;
+}
